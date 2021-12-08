@@ -1,0 +1,29 @@
+.header {
+  height: 500px;
+  background: url("../../images/Singleslide.png") center/cover;
+}
+
+.nav {
+  margin-left: 24.5%;
+  width: 1170px;
+  display: flex;
+  vertical-align: top;
+  padding-top: 27px;
+
+  &__link{
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 27px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
+
+.nav img {
+  margin-left: 55px;
+  margin-right: 55px;
+  text-align: center;
+}
