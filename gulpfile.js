@@ -44,7 +44,7 @@ gulp.task('copy:fonts', function (){
 });
 
 /* ----------------------- Copy images ----------------------- */
-gulp.task('copy:fonts', function (){
+gulp.task('copy:images', function (){
     return gulp.src('./source/images/**/*.*')
         .pipe(gulp.dest('build/images'))
 });
@@ -59,6 +59,7 @@ gulp.task('watch', function (){
 });
 
 gulp.task('default', gulp.series(
+    gulp.parallel('copy'),
     gulp.parallel('html-compile', 'css-compile'),
     gulp.parallel('watch', 'server')
 ))

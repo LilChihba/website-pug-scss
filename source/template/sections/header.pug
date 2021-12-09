@@ -1,0 +1,9 @@
+- var menu1 = ['HOME', 'ABOUT', 'GALLERY']
+- var menu2 = ['FAQ', 'FIND US', 'CONTACT']
+header.header
+    nav.nav
+        each menu in menu1
+            a.nav__link(href="#")=menu
+        img.logo__picture(src="images/InkTattooLogo.png" alt="picture")
+        each menu in menu2
+            a.nav__link(href="#")=menu
