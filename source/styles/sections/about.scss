@@ -71,10 +71,10 @@
   height: 500px;
 }
 
-.imageGallery {
+.rows__image {
+  //position: absolute;
   vertical-align: bottom;
-
-  &:hover {
-    
-  }
+  display: inline-block;
+  width: 250px;
+  height: 250px;
 }

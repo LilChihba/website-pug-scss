@@ -11,7 +11,6 @@ gulp.task('server', function () {
             port: 9000,
             baseDir: "build"
         }
-
     });
     gulp.watch('build/**/*').on('change', browserSync.reload);
 });
