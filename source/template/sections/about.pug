@@ -1,0 +1,20 @@
+- var img1 = 0;
+about.about
+    about__us.blockAboutUs
+        .aboutUs__image
+            img.aboutUs__image__relative(src="images/AboutImage.png")
+            img.aboutUs__image__absolute(src="images/TitleFrame.png")
+            h1 ABOUT US
+        .aboutUs__info
+            img(src="images/TattooDesign.png")
+            h3.h3__aboutUS Aliquam ac justo interdum, elementum ligula et, condimentum orci.
+                          br
+                          |Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            p.p__aboutUS Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero.
+                         br
+                         |Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.
+    about__rows.blockRows
+        .rows__image
+            while img1 < 12
+                img.imageGallery(src="images/img-"+ img1 +".png")
+                - img1++;
