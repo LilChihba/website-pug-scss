@@ -1,0 +1,80 @@
+.about {
+  margin-left: 11%;
+  display: block;
+  width: 1500px;
+  height: 1000px;
+}
+
+
+/* ----------------------------- ABOUT US ----------------------------- */
+.blockAboutUs {
+  width: 1500px;
+  height: 500px;
+}
+
+.aboutUs__image {
+  float: left;
+  width: 750px;
+  height: 500px;
+  display: inline-block;
+
+  &__relative {
+    position: relative;
+    display: inline-block;
+  }
+
+  &__absolute {
+    position: absolute;
+    margin-left: -525px;
+    margin-top: 200px;
+  }
+  & h1 {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -275px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Times New Roman Bold", serif;
+  }
+}
+
+.aboutUs__info {
+  float: right;
+  width: 750px;
+  height: 500px;
+  display: inline-block;
+
+  & img {
+    padding-top: 90px;
+    padding-left: 44%;
+  }
+
+  & h3 {
+    text-align: center;
+    font-family: "Times New Roman Regular", serif;
+    font-size: 18px;
+  }
+
+  & p{
+    padding-top: 21px;
+    padding-left: 85px;
+    padding-right: 127px;
+    font-family: "Times New Roman Regular", serif;
+    font-size: 16px;
+  }
+}
+
+
+/* ----------------------------- GALLERY ----------------------------- */
+.blockRows {
+  width: 1500px;
+  height: 500px;
+}
+
+.imageGallery {
+  vertical-align: bottom;
+
+  &:hover {
+    
+  }
+}

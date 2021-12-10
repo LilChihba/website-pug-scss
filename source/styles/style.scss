@@ -1,6 +1,5 @@
-body {
-  margin: auto;
-  background: #f2efe5;
-}
+@import "global/fonts";
+@import "global/common";
 
 @import "sections/nav";
+@import "sections/about";
