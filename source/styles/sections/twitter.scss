@@ -1,0 +1,22 @@
+.blockTwitter {
+  margin-left: 11%;
+  display: block;
+  background: url("../../images/TwitterBG.png");
+  width: 1500px;
+  height: 350px;
+
+  & img {
+    padding-left: 730px;
+    padding-top: 112px;
+    padding-bottom: 37px;
+  }
+
+  & p {
+    margin: 0;
+    font-family: "Times New Roman Italic-Bold", serif;
+    font-size: 22px;
+    color: #f2efe5;
+    padding-left: 296px;
+    padding-right: 296px;
+  }
+}
