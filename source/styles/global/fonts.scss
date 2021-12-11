@@ -11,3 +11,24 @@
   font-style: normal;
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "Times New Roman Italic";
+  src: url("../../fonts/TimesNewRomanItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Times New Roman Italic-Bold";
+  src: url("../../fonts/TimesNewRomanItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("../../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

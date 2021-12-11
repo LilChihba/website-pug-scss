@@ -1,0 +1,43 @@
+.blockTestimonial {
+  background: url("../../images/Rettangolo.png");
+  margin-left: 11%;
+  display: block;
+  width: 1500px;
+  height: 350px;
+  color: #f2efe5;
+}
+
+.first__quotation, .second__quotation{
+  margin: 0;
+  font-size: 150px;
+  font-family: "Times New Roman Italic", serif;
+}
+
+.first__quotation {
+  padding-top: 75px;
+  padding-left: 305px;
+  width: 50px;
+  height: 75px;
+}
+
+.second__quotation {
+  position: absolute;
+  margin-top: -40px;
+  padding-left: 1075px;
+}
+
+.text__testimonial {
+  margin: 0;
+  font-family: "Times New Roman Italic-Bold", serif;
+  text-align: center;
+  padding-right: 375px;
+  padding-left: 370px;
+  font-size: 24px;
+}
+
+.text__author {
+  font-family: "Times New Roman Italic", serif;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-left: 1000px;
+}

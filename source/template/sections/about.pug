@@ -14,7 +14,6 @@ about.about
                          br
                          |Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.
     about__rows.blockRows
-        .rows__image
             while img1 < 12
-                img.imageGallery(src="images/img-"+ img1 +".png")
+                img.rows__image.effect(src="images/img-"+ img1 +".png")
                 - img1++;

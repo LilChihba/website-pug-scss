@@ -1,0 +1,138 @@
+.blockTeam {
+  margin-left: 11%;
+  display: inline-block;
+  width: 1500px;
+  height: 1000px;
+}
+
+.boxTeam__image {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+
+  &__relative {
+    position: relative;
+    display: inline-block;
+  }
+
+  &__absolute {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -395px;
+  }
+
+  & h1 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -275px;
+    font-size: 36px;
+    font-family: "Times New Roman Bold", serif;
+  }
+}
+
+.CoreyMiller {
+  float: right;
+  display: inline-block;
+  width: 1000px;
+  height: 500px;
+
+  &_img {
+    position: relative;
+  }
+
+  &__image {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+  }
+  &__text {
+    display: inline-block;
+    float: right;
+    width: 500px;
+    height: 500px;
+    background: #ccc8b6;
+  }
+
+  & p {
+    margin: 0;
+    padding-right: 52px;
+    padding-left: 47px;
+    font-family: "Open Sans Regular", serif;
+    font-size: 14px;
+  }
+
+  & h3 {
+    margin: 0;
+    padding-left: 152px;
+    padding-top: 123px;
+    padding-bottom: 52px;
+    font-family: "Times New Roman Bold", serif;
+    font-size: 24px;
+  }
+}
+
+.arrow {
+  margin-left: -25px;
+  margin-top: 122px;
+  position: absolute;
+}
+
+.icons__1 {
+  padding-top: 45px;
+  padding-bottom: 118px;
+  padding-left: 60px;
+
+  &__ {
+    padding-left: 43px;
+  }
+}
+
+.KatVonD {
+  margin-top: -4px;
+  float: left;
+  vertical-align: top;
+  display: inline-block;
+  width: 1000px;
+  height: 500px;
+
+  &_img {
+    position: relative;
+  }
+
+  &__image {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+  }
+
+  &__text {
+    display: inline-block;
+    float: right;
+    width: 500px;
+    height: 500px;
+    background: #ccc8b6;
+  }
+
+  & p {
+    margin: 0;
+    padding-right: 52px;
+    padding-left: 47px;
+    font-family: "Open Sans Regular", serif;
+    font-size: 14px;
+  }
+
+  & h3 {
+    margin: 0;
+    padding-left: 172px;
+    padding-top: 120px;
+    padding-bottom: 48px;
+    font-family: "Times New Roman Bold", serif;
+    font-size: 24px;
+  }
+}
+
+.newsLetter {
+  float: right;
+  width: 500px;
+  height: 500px;
+}
