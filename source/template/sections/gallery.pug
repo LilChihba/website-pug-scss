@@ -1,0 +1,8 @@
+- var img1 = 1
+gallery.blockGallery
+    .blockGallery__info
+        img.TitleFrame(src="images/TitleFrame.png")
+        h1 GALLERY
+    while img1 < 19
+        img.gallery__image(src="images/gallery-" + img1 + ".png")
+        - img1++;
