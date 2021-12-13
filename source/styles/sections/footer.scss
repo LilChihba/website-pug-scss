@@ -1,0 +1,29 @@
+.blockFooter {
+  position: relative;
+  margin-left: 11%;
+  display: block;
+  width: 1500px;
+  height: 500px;
+  background: #aeaeae;
+
+  & p {
+    padding-left: 520px;
+    padding-top: 110px;
+  }
+
+  & img[src="images/copysymbol.png"]{
+    margin-top: 128px;
+    margin-left: 500px;
+    position: absolute;
+  }
+}
+
+.image__hover {
+  position: absolute;
+  margin-left: 279px;
+  margin-top: 239px;
+}
+
+.update {
+  padding-top: 170px;
+}
