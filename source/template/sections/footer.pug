@@ -1,0 +1,12 @@
+- var menu1 = ['HOME', 'ABOUT', 'GALLERY']
+- var menu2 = ['FAQ', 'FIND US', 'CONTACT']
+footer.blockFooter
+    img.image__hover(src="images/Hover.png")
+    nav.nav.update
+        each menu in menu1
+            a.nav__link(href="#")=menu
+        img.logo__picture(src="images/InkTattooLogo.png" alt="picture")
+        each menu in menu2
+            a.nav__link(href="#")=menu
+    img(src="images/copysymbol.png")
+    p 2014  InkTattoo. All rights reserved - Designed by theuncreativelab.com
