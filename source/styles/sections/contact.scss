@@ -1,6 +1,125 @@
 .blockContact {
   margin-left: 11%;
+  background: #e7e5d0;
   display: block;
   width: 1500px;
   height: 900px;
+}
+
+.leftBlock__contactUS {
+  float: left;
+  width: 765px;
+  height: 900px;
+
+  .text__contactUS {
+    margin: 0;
+    font-family: "Times New Roman Bold", serif;
+    font-size: 36px;
+    padding-top: 209px;
+    padding-left: 345px;
+  }
+
+  .text__contactUS__info {
+    margin: 0;
+    font-family: "Times New Roman Regular", serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 55px;
+    padding-left: 215px;
+    padding-bottom: 70px;
+    font-size: 18px;
+  }
+
+  .blockContactInfo {
+    margin-left: 165px;
+    display: block;
+    position: absolute;
+  }
+
+  .blockContactInfo2 {
+    margin-left: 480px;
+    display: block;
+    position: absolute;
+  }
+
+  .text__contacts {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Times New Roman Regular", serif;
+
+    &__value {
+      font-family: "Times New Roman Bold", serif;
+
+      &_1 {
+        font-family: "Times New Roman Bold", serif;
+      }
+    }
+  }
+}
+
+.rightBlock__contactUS {
+  float: right;
+  width: 735px;
+  height: 900px;
+}
+
+::placeholder {
+  color: #adaba4;
+}
+
+input[type="text"] {
+  margin-left: 102px;
+  width: 276px;
+  height: 36px;
+  background: #f2efe5;
+  border: 2px solid #000000;
+  padding-left: 16px;
+  font-family: "Times New Roman Bold", serif;
+  font-size: 12px;
+  color: #adaba4;
+}
+
+.input__1 {
+  margin-top: 187px;
+}
+
+.input__2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+textarea {
+  margin-left: 102px;
+  width: 470px;
+  height: 220px;
+  background: #f2efe5;
+  border: 2px solid #000000;
+  padding-top: 20px;
+  padding-left: 16px;
+  font-family: "Times New Roman Bold", serif;
+  font-size: 12px;
+  color: #adaba4;
+}
+
+input[type="button"] {
+  border: 0;
+  font-family: "Times New Roman Regular", serif;
+  font-size: 12px;
+  color: #e7e6e1;
+  margin-top: 40px;
+  margin-left: 102px;
+  width: 301px;
+  height: 40px;
+  background: #9a977a;
+}
+
+.TitleFrame__contactUS {
+  position: absolute;
+  padding-left: 313px;
+  padding-top: 180px;
+}
+
+.icon__soc {
+  padding-top: 125px;
+  padding-left: 50px;
 }
