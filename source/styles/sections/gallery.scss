@@ -32,4 +32,62 @@
   display: inline-block;
   width: 300px;
   height: 300px;
+
+  &:hover {
+    opacity: 0.3;
+  }
+
+  &:hover .hover__about_1 {
+    z-index: -1;
+  }
+
+  &:hover .hover__about_2 {
+    z-index: -1;
+  }
+
+  &:hover .hover__about_3 {
+    z-index: -1;
+  }
+
+  &:hover .hover__about_4 {
+    z-index: -1;
+  }
+}
+
+.inline-block__gallery{
+  float: left;
+  vertical-align: bottom;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+.hover__gallery {
+  &_1 {
+    z-index: -1;
+    position: absolute;
+    margin-left: -165px;
+    margin-top: 105px;
+  }
+
+  &_2 {
+    z-index: -1;
+    position: absolute;
+    margin-left: -225px;
+    margin-top: 168px;
+  }
+
+  &_3 {
+    z-index: -1;
+    position: absolute;
+    margin-left: -165px;
+    margin-top: 168px;
+  }
+
+  &_4 {
+    z-index: -1;
+    position: absolute;
+    margin-left: -97px;
+    margin-top: 170px;
+  }
 }
