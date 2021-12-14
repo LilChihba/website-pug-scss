@@ -1,1 +1,38 @@
+- var icons = ['facebook', 'twitter_blue', 't', 'in', 'instagramm', 'google']
 contact.blockContact
+    .leftBlock__contactUS
+        img.TitleFrame__contactUS(src="images/TitleFrame.png")
+        p.text__contactUS CONTACT US
+        p.text__contactUS__info Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        .blockContactInfo
+            a.text__contacts__value_1 INFO:
+            br
+            br
+            p.text__contacts Phone :
+                a.text__contacts__value  + 123-456-789-456
+            p.text__contacts FAX :
+                a.text__contacts__value  + 123-456-789-456
+            p.text__contacts EMAIL :
+                a.text__contacts__value  info@inktattoo.net
+            p.text__contacts ADDRESS :
+                a.text__contacts__value  1234 Street Road, City Name
+
+            each icon in icons
+                img.icon__soc(src="images/" + icon + ".png")
+
+        .blockContactInfo2
+            a.text__contacts__value_1 WORK HOURS:
+            br
+            br
+            p.text__contacts MONDAY-FRIDAY :
+                a.text__contacts__value  09AM - 18PM
+            p.text__contacts SATURDAY :
+                a.text__contacts__value  09AM-1PM
+            p.text__contacts SUNDAY :
+                a.text__contacts__value  CLOSED
+
+    .rightBlock__contactUS
+        input.input__1(name="FULL NAME" type="text" placeholder="FULL NAME")
+        input.input__2(name="EMAIL" type="text" placeholder="EMAIL")
+        textarea(name="MESSAGE" placeholder="MESSAGE")
+        input(name="SUBMIT" type="button" value="MESSAGE")
