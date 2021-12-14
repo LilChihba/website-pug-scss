@@ -14,6 +14,15 @@ about.about
                          br
                          |Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.
     about__rows.blockRows
-            while img1 < 12
-                img.rows__image(src="images/img-"+ img1 +".png")
-                - img1++;
+        while img1 < 12
+            div.inline-block(class="qwe" + img1)
+                img.rows__image(src="images/img-" + img1 + ".png")
+                a(href="#")
+                    img.hover__about_1(src="images/zoom.png")
+                a(href="#")
+                    img.hover__about_2(src="images/link.png")
+                a(href="#")
+                    img.hover__about_3(src="images/info.png")
+                a(href="#")
+                    img.hover__about_4(src="images/like.png")
+            - img1++;
