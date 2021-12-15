@@ -7,12 +7,14 @@
   background: #aeaeae;
 
   & p {
+    font-family: "Roboto Regular", serif;
+    font-size: 12px;
     padding-left: 520px;
     padding-top: 110px;
   }
 
   & img[src="images/copysymbol.png"]{
-    margin-top: 128px;
+    margin-top: 122px;
     margin-left: 500px;
     position: absolute;
   }
